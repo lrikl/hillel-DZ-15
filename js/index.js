@@ -4,8 +4,7 @@ function createSum() {
     let acc = 0; 
 
     return function(x) {
-        acc += x;
-        return acc;
+        return acc += x;
     };
 }
 
